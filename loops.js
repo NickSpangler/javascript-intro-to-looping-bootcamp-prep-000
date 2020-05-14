@@ -22,13 +22,13 @@ function whileLoop(number) {
 }
 
 function doWhileLoop(i) {
+do {
+  console.log("I run once regardless.");
+}
+while (incrementVariable() < i)
   function incrementVariable() {
   i = i + 1;
   return i;
 }
-do {
-  console.log("I run once regardless.");
-}
-while (incrementVariable() < parseInt(i));
 }
 
