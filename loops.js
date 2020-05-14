@@ -13,3 +13,8 @@ function forLoop(array) {
 }
 forLoop(strangeLoops);
 
+function whileLoop(Number) {
+  let i = number
+  while (i >= 0)
+  
+}
