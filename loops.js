@@ -14,9 +14,8 @@ function forLoop(array) {
 forLoop(strangeLoops);
 
 function whileLoop(number) {
-  let i = number
-  while (i >= 0) {
-    console.log(--i)
+  while (number >= 0) {
+    console.log(--number)
     return ("done")
   }
 }
