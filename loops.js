@@ -15,7 +15,8 @@ forLoop(strangeLoops);
 
 function whileLoop(number) {
   while (number >= 0) {
-    console.log(--number)
-    return ("done")
+    console.log(number);
+    --number
   }
+  return("done")
 }
